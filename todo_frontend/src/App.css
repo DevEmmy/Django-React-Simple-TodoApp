@@ -1,0 +1,86 @@
+.container{
+  background: white;
+  width: 60%;
+  margin: 40px auto;
+  padding: 30px;
+  box-shadow: 0 10px 34px rgba(0,0,0,0.2);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(30,150,240);
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form input{
+  padding: 12px 20px;
+  border: 2px solid #dddddd;
+  width: 100%;
+}
+
+.form input:focus{
+  outline: none;
+}
+
+.form button{
+  background: rgb(30,150,240);
+  border: none;
+  padding: 12px 17px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.tasks{
+  margin: 20px auto;
+  width: 80%;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task p{
+  background: rgb(30,150,240);
+  color: white;
+  padding: 20px;
+  margin: 10px auto;
+  width: 100%;
+  
+}
+
+.task p:target{
+  text-decoration: line-through;
+}
+
+.deleteBtn{
+  background: rgb(30,150,240);
+  border: none;
+  padding: 20px 17px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+p.strike{
+  text-decoration: line-through;
+}
+p.rm-strike{
+  text-decoration: none;
+}
